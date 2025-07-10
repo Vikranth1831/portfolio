@@ -8,8 +8,10 @@
     }
     .title{
         color: #f0f0f0;
-        font-size: 2em;
+        font-size: 2.5em;
         font-weight: bold;
+        text-shadow: 2px 2px rgb(33, 18, 18);
+
     }
     nav{
       
@@ -35,6 +37,8 @@
         color: #ff9900;
     }
     #about{
+        
+         background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,0.3));
         background-color: #cbcaca;
         padding: 20px;
         margin: 20px 0;
@@ -43,6 +47,7 @@
         color: #ff9900;
     }
     #about h2{
+        text-shadow: 1px 1px rgb(33, 18, 18);
         color: #534e4e;
         font-size: 1.8em;
     }
@@ -53,11 +58,13 @@
         font-style: italic;
     }
     #projects{
+         background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,0.3));
         background-color: #e0e0e0;
         padding: 20px;
         margin: 20px 0;
     }
     #projects h2{
+        text-shadow: 1px 1px rgb(33, 18, 18);
         color: #534e4e;
         font-size: 1.8em;
     }
@@ -75,12 +82,15 @@
         text-decoration: none;
     }
     #skills{
+
+         background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,0.3));
         background-color: #d0d0d0;
         padding: 20px;
       
         margin: 20px 0;
     }
     #skills h3{
+        text-shadow: 1px 1px rgb(33, 18, 18);
         color: #534e4e;
         font-size: 1.8em;
     }
@@ -94,11 +104,13 @@
         margin: 10px 0;
     }
     #education{
+         background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,0.3));
         background-color: #c0c0c0;
         padding: 20px;
         margin: 20px 0;
     }
     #education h2{
+        text-shadow: 1px 1px rgb(33, 18, 18);
         color: #534e4e;
         font-size: 1.8em;
     }   
@@ -119,11 +131,13 @@
         color: #333;
     }
     #contact{
+         background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255, 0, 0, 0.441));
         background-color: #b0b0b0;
         padding: 20px;
         margin: 20px 0;
     }
     #contact h2{
+        text-shadow: 1px 1px rgb(33, 18, 18);
         color: #3e3434;
         font-size: 1.8em;
     }
@@ -133,12 +147,17 @@
         align-items: center;
         }
    #contact button{
+        border-radius: 5px;
         background-color: #534e4e;
         color: #f0f0f0;
         border: none;
         padding: 10px 20px;
         font-size: 1.2em;
         cursor: pointer;
+    }
+    #contact button:hover{
+        background-color: #ff9900;
+        color: #fff;
     }
     footer{
         background-color: #534e4e;
@@ -148,5 +167,6 @@
         bottom: 0;
         width: 100%;
     }
+    
     
     
