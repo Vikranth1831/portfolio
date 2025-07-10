@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>      
+    <header>
+        <h1 class="title">My Portfolio</h1>
+        <nav>
+            <ul class="navlinks">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+    <p class="about">Hi, I'm <span>Vikranth</span> , a very enthusiastic Java developer. I love to learn new technologies and implement them in my projects. Currently, I am working on a project that involves web development and machine learning. I enjoy solving complex problems and collaborating with others to create innovative solutions. In my free time, I like to read tech blogs, contribute to open source projects, and explore new programming languages. If you have any interesting projects or ideas, feel free to reach out!</p>
+
+
+    </section>
+    <section id="projects">
+        <h2 class="Projects">Projects</h2>
+        <ul>
+            <li>
+                <h3>Project 1: Web Development</h3>
+                <p>Description: A responsive website built using HTML, CSS, and JavaScript.</p>
+                <a href="" target="_blank">Communionhub</a>
+    </section>
+    <section id="skills">
+       
+    <h3 class="Skills">Skills</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    </section>
+
+    <section id="education">
+    <h2 class="Education">Education Details</h2>
+    <table>
+        <tr>
+            <th>Degree</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>B.Tech</td>
+            <td>8.5</td>
+        </tr>
+        <tr>
+            <td>Intermediate</td>
+            <td>9.0</td>
+        </tr>
+    </table>
+    </section>
+    <section id="contact">
+        <h2 class="Education">Contact Me</h2>
+        <form  onsubmit="handleSubmit(event)">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+        <script>
+            function handleSubmit(event) {
+                event.preventDefault();
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const message = document.getElementById('message').value;
+                
+                alert(`Thank you, ${name}! Your message has been sent.`);
+                 return false;}
+        </script>
+        <p>If you have any questions or want to collaborate, feel free to reach out!</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Vikranth. All rights reserved.</p>   
+    <a href="https://github.com" target="_blank">GitHub</a>
+    </footer>
+</body>
+
+    
+</html>
